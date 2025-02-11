@@ -1,5 +1,4 @@
 import gradio as gr
-
 from audio import transcribe_with_whisper
 from chat import chat
 
@@ -51,7 +50,4 @@ def create_ui():
         )
         return ui
 
-if __name__ == "__main__":
-    ui = create_ui()
 
-    ui.launch()
